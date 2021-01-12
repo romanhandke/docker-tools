@@ -5,7 +5,7 @@ import subprocess
 
 @click.command()
 @click.pass_context
-def cli(ctx):
+def truncate(ctx):
     """Truncate log files of containers"""
     containers = []
     for container in ctx.obj.containers:

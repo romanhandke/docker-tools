@@ -5,7 +5,7 @@ from rich.table import Table
 
 @click.command()
 @click.pass_context
-def cli(ctx):
+def status(ctx):
     '''Show an abbreviated status for all containers'''
     console = Console()
     table = Table(show_header=True, header_style="bold magenta")

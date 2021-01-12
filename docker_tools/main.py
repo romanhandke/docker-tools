@@ -20,7 +20,7 @@ class DockerTools(click.MultiCommand):
         with open(fn) as f:
             code = compile(f.read(), fn, 'exec')
             eval(code, ns, ns)
-        return ns['cli']
+        return ns[name]
 
 
 class DockerContainerList:
