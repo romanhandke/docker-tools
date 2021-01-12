@@ -1,3 +1,0 @@
-[console_scripts]
-dt = docker_tools.main:cli
-
