@@ -1,3 +1,4 @@
 click==7.1.2
 rich==9.5.1
 inquirer==2.7.0
+fontawesome
